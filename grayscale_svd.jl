@@ -14,7 +14,7 @@ U, S, V=psvd(B)
 B010=sum(S[n]*U[1:p,n]*(V[1:q,n])' for n=1:10);
 B030=sum(S[n]*U[1:p,n]*(V[1:q,n])' for n=1:30);
 B050=sum(S[n]*U[1:p,n]*(V[1:q,n])' for n=1:50);
-B700=sum(S[n]*U[1:p,n]*(V[1:q,n])' for n=1:70);
+B070=sum(S[n]*U[1:p,n]*(V[1:q,n])' for n=1:70);
 
 plot(Gray.(B), 
     xaxis=false, 

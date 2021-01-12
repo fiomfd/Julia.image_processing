@@ -23,7 +23,7 @@ plot(Gray.(B),
     yticks=false, 
     grid=false, 
     title="B=B(365) 365 by 548 full rank matrix")
-savefig("rgb_svd_365.png")
+savefig("grayscale_svd_365.png")
 
 plot(Gray.(B010), 
     xaxis=false, 
@@ -32,7 +32,7 @@ plot(Gray.(B010),
     yticks=false, 
     grid=false, 
     title="B(10) rank 10 approximation")
-savefig("rgb_svd_010.png")
+savefig("grayscale_svd_010.png")
 
 plot(Gray.(B030), 
     xaxis=false, 
@@ -41,7 +41,7 @@ plot(Gray.(B030),
     yticks=false, 
     grid=false, 
     title="B(30) rank 30 approximation")
-savefig("rgb_svd_030.png")
+savefig("grayscale_svd_030.png")
 
 plot(Gray.(B050), 
     xaxis=false, 
@@ -50,7 +50,7 @@ plot(Gray.(B050),
     yticks=false, 
     grid=false, 
     title="B(50) rank 50 approximation")
-savefig("rgb_svd_050.png")
+savefig("grayscale_svd_050.png")
 
 plot(Gray.(B070), 
     xaxis=false, 
@@ -59,5 +59,5 @@ plot(Gray.(B070),
     yticks=false, 
     grid=false, 
     title="B(70) rank 70 approximation")
-savefig("rgb_svd_070.png")
+savefig("grayscale_svd_070.png")
 

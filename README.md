@@ -7,3 +7,4 @@ Here are some examples of Julia programs for image processing of grayscale image
   multiresolution decomposition
 - grayscale_svd.jl
   singular value decomposition
+- *.png results

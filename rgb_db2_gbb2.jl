@@ -1,6 +1,6 @@
 using LinearAlgebra, LowRankApprox, Formatting, ImageFiltering, Images, Plots, ImageMagick, Colors, TestImages, ImageView, ImageTransformations
 
-I=load("fl2.jpg");
+I=load("rgb.jpg");
 X=imresize(I, ratio=1/3);
 (p,q)=size(X);
 A=channelview(X);
